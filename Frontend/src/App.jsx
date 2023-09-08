@@ -1,4 +1,4 @@
-import React from 'react';
+
 import 'tailwindcss/tailwind.css'; 
 import { Routes,Route } from 'react-router-dom';
 import 'tailwindcss/tailwind.css'; 
@@ -15,7 +15,7 @@ const App = () => {
       <Route path='/books/create' element={<CreateBooks/>}></Route>
       <Route path='/books/details/:id' element={<ShowBook/>}></Route>
       <Route path='/books/edit/:id' element={<EditBook/>}></Route>
-      <Route path='/books/delete/:id' element={<DeletBook/>}></Route>
+      <Route path='/books/delete/:id' element={<DeleteBook/>}></Route>
     </Routes>
   )
 }

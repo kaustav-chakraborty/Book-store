@@ -1,6 +1,6 @@
-import React ,{useEffect,useState}from 'react'
+import {useEffect,useState, useParams}from 'react'
 import axios from 'axios';
-import Backbutton from '../components/backbutton';
+import Backbutton from '../components/bacbutton';
 import Spinner from '../components/spinner';
 
 const ShowBook = () => {
